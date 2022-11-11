@@ -41,12 +41,12 @@ menuLink.forEach((item) => {
 
 const projects = [
   {
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    descriptionMobile: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    descriptionDesktop: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    image: 'Pictures/snapshot.png',
-    imageDesktop: 'Pictures/snap-desktop1.png',
+    name: 'Chess Global Summit',
+    description: 'This is a dummy website for Chess Global Summit built with HTML, CSS and javaScript.',
+    descriptionMobile: "This website's main subject is Chess. It is fully responsive and has many interesting features. To check it out, please click on 'see live' button.",
+    descriptionDesktop: "This website's main subject is Chess. It is fully responsive and has many interesting features. To check it out, please click on 'see live' button.",
+    image: 'Pictures/project-1.png',
+    imageDesktop: 'Pictures/project-1.png',
     technologies: ['html', 'css', 'javascript'],
     liveLink: '',
     sourceLink: '',
@@ -105,14 +105,14 @@ projects.forEach((project, index) => {
   let textDesktop = '';
   textMobile += `
     <div class="snapshot">
-      <img src="${project.image}" alt="">
+      <img class="snapshot" src="${project.image}" alt="">
     </div>
     <h2>${project.name}</h2>
     <div class="bullets">
-        <h3>CANOPY</h3>
+        <h3>HTML</h3>
         <ul class="bullets1">
-            <li>Back End Dev</li>
-            <li>2015</li>
+            <li>CSS</li>
+            <li>javaScript</li>
         </ul>
     </div>
     <div class="second-para">
@@ -132,10 +132,10 @@ projects.forEach((project, index) => {
     <div class="second-grid${secondGrid}">
         <h2>${project.name}</h2>
         <div class="bullets">
-            <h3>CANOPY</h3>
+            <h3>HTML</h3>
             <ul class="bullets1">
-                <li>Back End Dev</li>
-                <li>2015</li>
+                <li>CSS</li>
+                <li>javaScript</li>
             </ul>
         </div>
         <div class="second-para">

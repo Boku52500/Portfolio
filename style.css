@@ -223,6 +223,10 @@ h3 {
   margin-left: 12px;
 }
 
+.snapshot {
+  width: 70vw;
+}
+
 .snapshot2 {
   display: flex;
   flex-direction: column;
@@ -777,6 +781,7 @@ form {
 
   .page-2-desktop p {
     width: 36vw;
+    max-width: 30vw;
   }
 
   .lets-connect {
@@ -787,6 +792,7 @@ form {
     display: flex;
     padding: 6%;
     width: 37vw;
+    height: 20vw;
     transition: transform 2s;
   }
 
